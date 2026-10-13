@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { margin: 0; background: #070b19; color: #f7f8ff; font-family: Arial, sans-serif; }
+button { font: inherit; }
+.stars { background-image: radial-gradient(circle at 12% 24%, rgba(92,225,230,.55) 0 1px, transparent 1.5px), radial-gradient(circle at 78% 16%, rgba(167,139,250,.55) 0 1px, transparent 1.5px), radial-gradient(circle at 62% 74%, rgba(255,255,255,.4) 0 1px, transparent 1.5px), radial-gradient(circle at 30% 82%, rgba(255,122,144,.4) 0 1px, transparent 1.5px); background-size: 180px 180px, 240px 240px, 140px 140px, 220px 220px; }
+.neon-text { text-shadow: 0 0 12px rgba(92,225,230,.7), 0 0 34px rgba(167,139,250,.35); }
